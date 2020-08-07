@@ -58,6 +58,35 @@
 }
 #cuerpo{
     background-color: #17c2a4;
+    text-align: center;
+    padding-top: 116px;
+}
+#cuerpo-primera-parte h2{
+    font-size: 40px;
+    padding-bottom: 46px;
+}
+#cuerpo-primera-parte p{
+    font-size: 18px;
+    padding-bottom: 80px;
+}
+#primera-fila td{
+    padding-bottom: 60px;
+}
+#segunda-fila td{
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+#tercera-fila td{
+    font-size: 16px;
+}
+#tercera-fila p{
+    margin:0px 25px 0px;
+}
+td+td{
+    padding-left: 15px;
+}
+table{
+    padding-bottom: 132px;
 }
 #footer{
     background-color: #344b8e;
