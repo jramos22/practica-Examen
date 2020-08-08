@@ -39,6 +39,10 @@
 #nav a{
     text-decoration: none;
 }
+#nav a:hover{
+    padding: 10px 17px;
+    background-color: #643a79;
+}
 #header{
     background-color: #87509c;
 }
@@ -90,4 +94,16 @@ table{
 }
 #footer{
     background-color: #344b8e;
+}
+#footer ul li{
+    font-size: 24px;
+    float: left;
+    list-style: none;
+    padding: 41px 37px 44px;
+}
+#footer ul li a{
+    text-decoration: none;
+}
+#footer ul li a:hover{
+    color: #30b4e2;
 }
