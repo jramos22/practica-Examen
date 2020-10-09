@@ -107,3 +107,48 @@ table{
 #footer ul li a:hover{
     color: #30b4e2;
 }
+
+
+a {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;   
+}
+
+a:hover {
+    color: #616161;
+}
+
+.modal-contenido a:hover {
+    color: red;
+}
+
+.modal-contenido {
+    background-color: #787276;
+    width:300px;
+    padding: 100px 200px;
+    margin: 20% auto;
+    position: relative;
+    text-align: right;
+}
+.modal-contenido p{
+    text-align: center;
+}
+
+.modal {
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 0s;
+}
+
+#Modalpractica:target {
+    opacity:1;
+    pointer-events:auto;
+}
